@@ -8,7 +8,7 @@ export default function decorate(block) {
       <div class="fifa-badge">⚽</div>
       <h1 class="fifa-title">${title}</h1>
       <p class="fifa-subtitle">${subtitle}</p>
-      <button class="fifa-btn">Explore Now</button>
+      <a href="${link}" class="fifa-btn">Explore Now</a>
     </div>
   `;
 }
